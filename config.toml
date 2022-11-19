@@ -1,4 +1,4 @@
-baseURL = 'http://www.nehit.com/'
+baseURL = 'https://www.nehit.com/'
 languageCode = 'en-us'
 title = 'Nehit'
 theme = "hello-friend"
@@ -129,7 +129,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd /home/nehit"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
