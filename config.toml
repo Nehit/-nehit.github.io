@@ -9,7 +9,6 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -95,7 +94,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -112,8 +111,8 @@ disableHugoGeneratorInject = false
   #
   [params.footer]
     trademark = true
-    rss = true
-    copyright = true
+    rss = false
+    copyright = false
     author = true
 
     topText = []
@@ -134,7 +133,7 @@ disableHugoGeneratorInject = false
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
+    logoCursorColor    = "#085429"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
@@ -170,12 +169,6 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/company/nehit/"
 
-[languages]
-  [languages.en]
-    subtitle  = ""
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
 [menu]
   [[menu.main]]
     identifier = "home"
@@ -183,7 +176,7 @@ disableHugoGeneratorInject = false
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "technology"
-    name = "Technology"
-    url = "/technology/"
+    identifier = "technology-and-services"
+    name = "Technology and Services"
+    url = "/technology-and-services/"
     weight = 2
